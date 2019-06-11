@@ -152,5 +152,6 @@ public class SimpleFormulas {
             System.out.println("Your percent pass score is " + percent + "%");
             System.out.println("Your percent fail score is " + numberOfFailPoints + "%");
         }
+
     }
 }
