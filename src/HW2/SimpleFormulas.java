@@ -81,8 +81,5 @@ public class SimpleFormulas {
         double numberOfspeedKilometersPerHours = speedMiHr * speedKmHrInSpeedMiHr;
         System.out.println(numberOfspeedKilometersPerHours + " speed Km/Hr in " + speedMiHr + " speed Mi/Hr");
         System.out.println("");
-
-
-
     }
 }
