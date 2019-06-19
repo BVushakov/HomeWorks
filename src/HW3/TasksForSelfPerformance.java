@@ -102,19 +102,49 @@ public class TasksForSelfPerformance {
 
         //Самое большое
 
-        int firstNumber = 2;
-        int secondNumber = 8;
-        int thirdNumber = 5;
-//
-        if (firstNumber > secondNumber) {
-            if (secondNumber > thirdNumber){
-                System.out.println("Cреднее число " + secondNumber);
-            } else {
-                System.out.println("Cреднее число " + thirdNumber);
-            }
-            System.out.println("Cреднее число " + firstNumber);
+        int firstNumber = 3;
+        int secondNumber = 2;
+        int thirdNumber = 1;
+
+        if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+            System.out.println("Самое большое число: " + firstNumber);
+        } else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
+            System.out.println("Самое большое число: " + secondNumber);
         } else {
-            System.out.println("Cреднее число " + thirdNumber);
+            System.out.println("Самое большое число: " + thirdNumber);
         }
+        System.out.println("");
+
+        //Среднее число
+
+        int numberOne = 5;
+        int numberTwo = 4;
+        int numberThree = 34;
+
+        if (numberOne > numberTwo && numberOne < numberThree) {
+            System.out.println("Cреднее число " + numberOne);
+        } else if (numberTwo > numberOne && numberTwo < numberThree) {
+            System.out.println("Cреднее число " + numberTwo);
+        } else if (numberThree > numberOne && numberThree < numberTwo){
+            System.out.println("Cреднее число " + numberThree);
+        } else {
+            System.out.println("Что то пошло не так!");
+        }
+        System.out.println("");
+
+        //Самое маленькое
+
+        int minOneNumber = 121;
+        int minTwoNumber = 18;
+        int minThreeNumber = -10;
+//
+        if (minOneNumber < minTwoNumber && minOneNumber < minThreeNumber) {
+            System.out.println("Самое маленькое число: " + minOneNumber);
+        } else if (minTwoNumber < minOneNumber && minTwoNumber < minThreeNumber) {
+            System.out.println("Самое маленькое число: " + minTwoNumber);
+        } else if (minThreeNumber < minOneNumber && minThreeNumber < minTwoNumber) {
+            System.out.println("Самое маленькое число: " + minThreeNumber);
+        }
+        System.out.println("");
     }
 }
