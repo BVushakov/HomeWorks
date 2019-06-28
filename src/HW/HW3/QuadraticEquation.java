@@ -1,4 +1,4 @@
-package HW3;
+package HW.HW3;
 
 public class QuadraticEquation {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package HW2;
+package HW.HW2;
 
 import static java.lang.Math.*;
 

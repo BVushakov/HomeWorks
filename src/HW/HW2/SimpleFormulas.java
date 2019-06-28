@@ -1,4 +1,4 @@
-package HW2;
+package HW.HW2;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
