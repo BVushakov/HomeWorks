@@ -52,30 +52,30 @@ public class SimpleFormulas {
 //
 //
         /**5) Convert miles to kilometers. And reverse*/
-        double miles = 2.5d;//your number
-        double kilometersInMile = 1.609d;// constant
-        double numberOfKilometersPerMile = miles * kilometersInMile;
-        System.out.println(numberOfKilometersPerMile + " kilometers in " + miles + " miles");
-
-        double kilometres = 12.5d;//your number
-        double kilometresInMileVar = 1.609d;// constant
-        double numberOfKilometresPerMiles = kilometres / kilometresInMileVar;
-        System.out.println(numberOfKilometresPerMiles + " miles in " + kilometres + " kilometres");
-        System.out.println("");
+//        double miles = 2.5d;//your number
+//        double kilometersInMile = 1.609d;// constant
+//        double numberOfKilometersPerMile = miles * kilometersInMile;
+//        System.out.println(numberOfKilometersPerMile + " kilometers in " + miles + " miles");
+//
+//        double kilometres = 12.5d;//your number
+//        double kilometresInMileVar = 1.609d;// constant
+//        double numberOfKilometresPerMiles = kilometres / kilometresInMileVar;
+//        System.out.println(numberOfKilometresPerMiles + " miles in " + kilometres + " kilometres");
+//        System.out.println("");
 //
 //
 //
         /**6) Convert kilograms to pounds. And reverse*/
-//        double kilograms = 1d;//your number
-//        double poundsInKilograms = 2.2046d;// constant
-//        double numberOfPoundsPerKilograms = kilograms * poundsInKilograms;
-//        System.out.println(numberOfPoundsPerKilograms + " pounds in " + kilograms + " kilograms");
-//
-//        double pounds = 31.0d;//your number
-//        double poundsInKilogramsVar = 2.2046d;// constant
-//        double numberOfPoundsPerKilogramsVar = pounds / poundsInKilogramsVar;
-//        System.out.println(numberOfPoundsPerKilogramsVar + " kilograms in " + pounds + " pounds");
-//        System.out.println("");
+        double kilograms = 3.5d;//your number
+        double poundsInKilograms = 2.2046d;// constant
+        double numberOfPoundsPerKilograms = kilograms * poundsInKilograms;
+        System.out.println(numberOfPoundsPerKilograms + " pounds in " + kilograms + " kilograms");
+
+        double pounds = 40.0d;//your number
+        double poundsInKilogramsVar = 2.2046d;// constant
+        double numberOfPoundsPerKilogramsVar = pounds / poundsInKilogramsVar;
+        System.out.println(numberOfPoundsPerKilogramsVar + " kilograms in " + pounds + " pounds");
+        System.out.println("");
 //
         /**7) Convert speed km/hr to mi/hr. And reverse*/
 //        double speedKmHr = 50d;//your number
