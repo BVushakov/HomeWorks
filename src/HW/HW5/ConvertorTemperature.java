@@ -8,9 +8,9 @@ public class ConvertorTemperature {
 
     public static void main(String[] args) {
 
-        double celsius = 15;
-        double kelvin = 300;
-        double fahrenheit = 80;
+        double celsius = 15;//your number
+        double kelvin = 300;//your number
+        double fahrenheit = 80;//your number
 
         System.out.println("Celsius " + celsius + " -> Kelvin " + convertCelsiusToKelvin(celsius) );
         System.out.println("Kelvin " + kelvin + " -> Celsius " + convertKelvinToCelsius(kelvin) );
