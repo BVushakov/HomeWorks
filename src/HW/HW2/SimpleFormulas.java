@@ -39,29 +39,29 @@ public class SimpleFormulas {
         1km/hr = 0.6214mi/hr*/
 //
         /**4) Convert meters to inches. And reverse*/
-        double meters = 3d;//your number
-        double inchesInMeter = 39.37d;// constant
-        double numberOfInchesPerMeter = meters * inchesInMeter;
-        System.out.println(numberOfInchesPerMeter + " inches in " + meters + " meters");
-
-        double inches = 200d;//your number
-        double inchesInMeterVar = 39.37d;// constant
-        double numberOfMetersPerInche = inches / inchesInMeterVar;
-        System.out.println(numberOfMetersPerInche + " meters in " + inches + " inche");
-        System.out.println("");
+//        double meters = 3d;//your number
+//        double inchesInMeter = 39.37d;// constant
+//        double numberOfInchesPerMeter = meters * inchesInMeter;
+//        System.out.println(numberOfInchesPerMeter + " inches in " + meters + " meters");
+//
+//        double inches = 200d;//your number
+//        double inchesInMeterVar = 39.37d;// constant
+//        double numberOfMetersPerInche = inches / inchesInMeterVar;
+//        System.out.println(numberOfMetersPerInche + " meters in " + inches + " inche");
+//        System.out.println("");
 //
 //
         /**5) Convert miles to kilometers. And reverse*/
-//        double miles = 10d;//your number
-//        double kilometersInMile = 1.609d;// constant
-//        double numberOfKilometersPerMile = miles * kilometersInMile;
-//        System.out.println(numberOfKilometersPerMile + " kilometers in " + miles + " miles");
-//
-//        double kilometres = 120d;//your number
-//        double kilometresInMileVar = 1.609d;// constant
-//        double numberOfKilometresPerMiles = kilometres / kilometresInMileVar;
-//        System.out.println(numberOfKilometresPerMiles + " miles in " + kilometres + " kilometres");
-//        System.out.println("");
+        double miles = 2.5d;//your number
+        double kilometersInMile = 1.609d;// constant
+        double numberOfKilometersPerMile = miles * kilometersInMile;
+        System.out.println(numberOfKilometersPerMile + " kilometers in " + miles + " miles");
+
+        double kilometres = 12.5d;//your number
+        double kilometresInMileVar = 1.609d;// constant
+        double numberOfKilometresPerMiles = kilometres / kilometresInMileVar;
+        System.out.println(numberOfKilometresPerMiles + " miles in " + kilometres + " kilometres");
+        System.out.println("");
 //
 //
 //
