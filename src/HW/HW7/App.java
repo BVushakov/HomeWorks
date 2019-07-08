@@ -1,5 +1,6 @@
 package HW.HW7;
 
+/** 7 */
 public class App {
     public static void main(String[] args) {
 
