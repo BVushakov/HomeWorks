@@ -29,12 +29,3 @@ public class App extends TestBase{
         app.tearDown();
     }
 }
-/**
- myFirstTest.setUp();
-
- logger.log("Login to site");
- logger.log("Check user is logged");
- logger.log("Login to site");
-
- myFirstTest.tearDown();
- */
